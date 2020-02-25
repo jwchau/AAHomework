@@ -166,11 +166,12 @@ __webpack_require__.r(__webpack_exports__);
 
 var giphyIndexItem = function giphyIndexItem(_ref) {
   var gif = _ref.gif;
+  // const giphyIndexItem = (props) => {
   // debugger
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "gif-item"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: gif.url,
+    src: gif.images.fixed_height.url,
     alt: gif.slug
   }));
 };
