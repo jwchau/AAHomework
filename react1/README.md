@@ -1,6 +1,6 @@
 # React 1 Prep
 
-## How to prepare
+### How to prepare
 
 Know the Redux cycle!!!
 
